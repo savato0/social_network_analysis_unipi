@@ -5,8 +5,10 @@ from tqdm import tqdm  # Se non ce l'hai: pip install tqdm
 
 # --- CONFIGURAZIONE ---
 USERNAME = 'atlasover.bsky.social'
-PASSWORD = 'STIG8roberts_alza'
-
+# Read PASSWORD from file my_password.txt
+with open('my_password.txt', 'r') as f:
+    PASSWORD = f.read().strip()
+    
 # Le "reti" che vuoi pescare. 
 # "min_replies:10" è un trucco potente: scarica solo post che hanno ALMENO 10 risposte.
 KEYWORDS = [

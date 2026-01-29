@@ -6,3 +6,4 @@ tqdm
 vaderSentiment
 matplotlib
 seaborn
+pyvis

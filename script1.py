@@ -24,13 +24,13 @@ KEYWORDS = [
 
 # LISTA B: Se usi SEARCH_MODE = 'USER' (Inserisci qui gli handle senza @)
 TARGET_USERS = [
-    'aoc.bsky.social', 
-    'markhamillofficial.bsky.social',
-    'georgetakei.bsky.social' 
+    'aoc.bsky.social'
+    # 'markhamillofficial.bsky.social',
+    # 'georgetakei.bsky.social' 
 ]
 
 # Quanti thread scaricare TOTALI per ogni target (es. 1000)
-POSTS_PER_TOPIC = 50
+POSTS_PER_TOPIC = 1000
  
 DELAY = 1.5            # Secondi di pausa tra le richieste dei thread
 MIN_CHARS = 30         # Lunghezza minima testo
